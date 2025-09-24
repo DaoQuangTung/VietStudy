@@ -1,0 +1,38 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.hero-left {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-img {
+  max-width: 350px;
+  width: 100%;
+}
+
+.hero-right {
+  flex: 1;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 250px;
+  margin: 0 auto;
+}
